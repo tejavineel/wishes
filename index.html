@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      .outter {
+        transform: rotateY(0deg) rotate(-25deg);
+      }
+
+      .hbd {
+        font-size: 120px;
+      }
+
+      .heart {
+        font-size: 120px;
+        color: #e00;
+        animation: beat 0.27s infinite alternate;
+        transform-origin: center;
+      }
+
+      /* Heart beat animation */
+      @keyframes beat {
+        to {
+          transform: scale(1.1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="outter">
+      <div class="heart">Happy Birthday!!!</div>
+      <div class="hbd">
+        Nitheesha
+        <span class="heart">&hearts;</span>
+      </div>
+    </div> -->
+    <div>
+      <img src="nivi.svg" alt="" />
+    </div>
+  </body>
+</html>
